@@ -1,0 +1,163 @@
+/*Celular*/
+@media screen and (min-width:320px){
+    .personal{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .persona__imagen{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .mi__foto{
+        display: flex;
+        border-radius: 100%;
+        width: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .personal__contenido{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .personal__titulo{
+        display: flex;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
+    .personal__descripcion{
+        display: flex;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .lista__enlaces{
+        display: flex;
+        font-size: .75rem;
+    }
+    
+    .personal__lista-enlaces{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .personal__lista{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:768px){
+    .personal{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .personal__informacion{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .persona__imagen{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    
+    .mi__foto{
+        display: flex;
+        border-radius: 100%;
+        width: 15rem;
+        height: auto;
+        margin-left: 2.5rem;
+        margin-bottom: 0;
+    }
+    
+    .personal__contenido{
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+    }
+    
+    .personal__titulo{
+        font-size: 1.5rem;
+    }
+    
+    .personal__descripcion{
+        font-size: 1rem;
+    }
+    
+    .personal__lista-enlaces{
+        font-size: .9rem;
+    
+    }
+}
+
+/*pc*/
+@media screen and (min-width:1024px){
+    .personal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5rem 1rem 5rem;
+    }
+    
+    .mi__foto{
+        display: flex;
+        border-radius: 100%;
+        width: 22.5rem;
+        height: auto;
+        margin-left: 0;
+    }
+    
+    .personal__contenido{
+        display: flex;
+        flex-direction: column;
+        width: 56%;
+    }
+    
+    .personal__titulo{
+        display: flex;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .personal__descripcion{
+        display: flex;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .lista__enlaces{
+        display: flex;
+    }
+    
+    .personal__lista-enlaces{
+        display: flex;
+        flex-direction: row;
+        font-size: .9rem;
+        text-decoration: underline;
+    }
+    
+    .personal__lista{
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+}

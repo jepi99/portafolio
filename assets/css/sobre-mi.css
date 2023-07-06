@@ -1,0 +1,58 @@
+/*Celular*/
+@media screen and (min-width:320px){
+    .sobre__mi-contenido{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    
+    .sobre__mi-titulo{
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .sobre__mi-descripcion{
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .lista{
+        list-style: inside;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:768px){
+    .sobre__mi-contenido{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+}
+
+/*pc*/
+@media screen and (min-width:1024px){
+    .sobre__mi-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 10rem 5rem 4rem 5rem;
+    }
+    
+    .sobre__mi-titulo{
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .sobre__mi-descripcion{
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .lista{
+        list-style: inside;
+    
+    }
+}

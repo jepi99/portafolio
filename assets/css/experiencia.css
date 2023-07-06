@@ -1,0 +1,203 @@
+/*Celular*/
+@media screen and (min-width:320px){
+    .experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .experiencia__contenido-principal{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .experiencia__titulo-principal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .contenido__imagen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .proyecto__imagen{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contenido__informacion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiencia__titulo{
+        display: flex;
+        align-items: start;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .experiencia__contenido{
+        display: flex;
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+
+    .experiencia__botones{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experiencia__repositorio{
+        background: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: .5rem;
+        transition: all .1s ease-in-out;
+        margin-right: .5rem;
+    }
+
+    .experiencia__demo{
+        background: #ffa500;
+        border: none;
+        border-radius: 5px;
+        color: #333333;
+        padding: .5rem;
+        transition: all .1s ease-in-out;
+    }
+
+    .experiencia__repositorio-gradient:hover{
+        cursor: pointer;
+        background: #b95f4d;
+        transform: scale(1.1);
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:768px){
+    .experiencia__contenido-principal{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .contenido__imagen{
+        align-items: start;
+    }
+}
+
+/*pc*/
+@media screen and (min-width:1024px){
+    .experiencia{
+        display: flex;
+        justify-content: center;
+    }
+
+    .experiencia__contenido-principal{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .experiencia__titulo-principal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 2rem 0 0 0;
+    }
+
+    .contenido__imagen{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .derecha{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+    .proyecto__imagen{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        height: 80%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .contenido__informacion{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .experiencia__titulo{
+        display: flex;
+        align-items: start;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .experiencia__contenido{
+        display: flex;
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+
+    .experiencia__botones{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experiencia__repositorio{
+        background: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 1rem;
+        transition: all .1s ease-in-out;
+        margin-right: 1rem;
+    }
+
+    .experiencia__demo{
+        background: #ffa500;
+        border: none;
+        border-radius: 5px;
+        color: #333333;
+        padding: 1rem;
+        transition: all .1s ease-in-out;
+    }
+
+    .experiencia__repositorio-gradient:hover{
+        cursor: pointer;
+        background: #b95f4d;
+        transform: scale(1.1);
+    }
+}

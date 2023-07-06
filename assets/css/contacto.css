@@ -1,0 +1,242 @@
+/*Celular*/
+@media screen and (min-width:320px){  
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacto__imagen{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .contacto__imagen-foto{
+        display: flex;
+        width: 25rem;
+        height: 38.5rem;
+        display: none;
+    }
+    
+    .contacto__contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .contacto__titulo{
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .contacto__texto{
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .contacto__datos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    
+    .contacto__informacion{
+        display: flex;
+        width: 100%;
+        height: 2rem;
+        font-size: .9rem;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        padding-left: .5rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .tamano{
+        padding-top: .57rem;
+        padding-bottom: .57rem;
+    }
+    
+    .texto{
+        height: 14rem;
+        font-size: .9rem;
+        padding-top: .5rem;
+        resize: none;
+        text-align: left;
+        vertical-align: top;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .contacto__botones{
+        display: flex;
+    }
+    
+    .contacto__boton{
+        background: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 1rem;
+        transition: all .1s ease-in-out;
+    }
+    
+    .contacto__boton:hover{
+        cursor: pointer;
+        background: #b95f4d;
+        transform: scale(1.1);
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:768px){   
+    .contacto__imagen{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .contacto__datos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .tamano{
+        padding-top: .57rem;
+        padding-bottom: .57rem;
+    }
+    
+    .texto{
+        height: 14rem;
+        font-size: .9rem;
+        padding-top: .5rem;
+        resize: none;
+        text-align: left;
+        vertical-align: top;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .contacto__botones{
+        display: flex;
+
+    }
+    
+    .contacto__boton{
+        background: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 1rem;
+        transition: all .1s ease-in-out;
+    }
+    
+    .contacto__boton:hover{
+        cursor: pointer;
+        background: #b95f4d;
+        transform: scale(1.1);
+    }
+}
+
+/*pc*/
+@media screen and (min-width:1024px){
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto__imagen{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        margin: 2rem 5rem 0 5rem;
+    }
+
+    .contacto__imagen-foto{
+        display: flex;
+        width: 25rem;
+        height: 35rem;
+    }
+
+    .contacto__contenido{
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__titulo{
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 1.1rem;
+    }
+
+    .contacto__texto{
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .contacto__datos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contacto__informacion{
+        display: flex;
+        width: 100%;
+        height: 2rem;
+        font-size: .9rem;
+        border: none;
+        border-radius: 0 0 5px 5px;
+        margin-bottom: 1rem;
+        padding-left: 1.1rem;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .tamano{
+        padding-top: .57rem;
+        padding-bottom: .57rem;
+    }
+
+    .texto{
+        height: 12.5rem;
+        font-size: .9rem;
+        padding-top: .5rem;
+        resize: none;
+        text-align: left;
+        vertical-align: top;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .contacto__botones{
+        display: flex;
+    }
+
+    .contacto__boton{
+        background: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 1rem;
+        transition: all .1s ease-in-out;
+    }
+
+    .contacto__boton:hover{
+        cursor: pointer;
+        background: #b95f4d;
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width:1440px){
+    .texto{
+        height: 15.2rem;
+    }
+}

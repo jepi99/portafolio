@@ -1,0 +1,182 @@
+/*Celular*/
+@media screen and (min-width:320px){
+    .formacion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .formacion__contenido-general{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .formacion__titulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    .imagen__formacion{
+        display: flex;
+        background: #fdfdfd;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .imagen__formacion-foto{
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .formacion__contenido{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FF7F00;
+    }
+    
+    .formacion__titulo-instituto{
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+    
+    .formacion_descripcion{
+        display: flex;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:768px){
+    .formacion{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .formacion__contenido-general{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .formacion__titulo{
+        width: 100%;
+    }
+    
+    .imagen__formacion{
+        display: flex;
+        background: #fdfdfd;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .imagen__formacion-foto{
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .formacion__contenido{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FF7F00;
+    }
+    
+    .formacion__titulo-instituto{
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+    
+    .formacion_descripcion{
+        display: flex;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
+
+/*pc*/
+@media screen and (min-width:1024px){
+    .formacion{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .formacion__contenido-general{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 5rem 0 5rem;
+    
+    }
+    
+    .formacion__titulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 2rem 0 2rem 0;
+    }
+    
+    .imagen__formacion{
+        display: flex;
+        background: #fdfdfd;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    .imagen__formacion-foto{
+        display: flex;
+        width: 20rem;
+        height: 20rem;
+        margin-right: 1.8rem;
+        margin-left: 1.8rem;
+        margin-top: 1.5rem;
+    }
+    
+    .formacion__contenido{
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+        width: 100%;
+        background-color: #FF7F00;
+    }
+    
+    .formacion__titulo-instituto{
+        margin-top: .5rem;
+        margin-bottom: 1.1rem;
+        font-weight: 700;
+    }
+    
+    .formacion_descripcion{
+        display: flex;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
